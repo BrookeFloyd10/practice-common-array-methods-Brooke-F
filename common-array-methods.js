@@ -20,7 +20,10 @@ Second drink item:  ${drinkOrders[1]} and First pastry item: ${pastryOrders[0]}
 `);
 
 
-// Task 4 
+// Task 4 Access Orders Dynamically with Variables
+// Declare two variables and use them with bracket notation to log the selected order
+// dynamically. (I assumed that these went together and werent separate tasks.)
+
  let drinkSelection = 1;
  let pastrySelection = 0;
     console.log(`You Selected: ${drinkOrders[drinkSelection]} and ${pastryOrders[pastrySelection]}`)
